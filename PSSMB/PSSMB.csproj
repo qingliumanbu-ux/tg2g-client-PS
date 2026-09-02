@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7ECB2DA0-68B1-4594-B049-4BA43DB5BA03}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PSSMD_S2N</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PS</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccAuxPath>SAK</SccAuxPath>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BE2.Common, Version=1.0.8360.19533, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\pangang\pg\攀钢\PGZZM5\Client_Dev19\QM\BE2.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="BE2.FormConfig, Version=1.0.8364.22894, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\pangang\pg\攀钢\PGZZM5\Client_Dev19\QM\BE2.FormConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.4">
+      <HintPath>..\..\C1.Win.C1FlexGrid.4.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Common, Version=3.0.5213.20495, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GC\Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Office.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Export, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.Wizard, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.Design, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.UI, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DevExpress.XtraRichEdit.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\BSMesWare\TGCMS0\DevExpress.XtraTreeList.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="EF.v5.2">
+      <HintPath>..\..\EF.v5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="EFX.v5.2">
+      <HintPath>..\..\EFX.v5.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EI, Version=5.0.14.24616, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GanttContentInfoPlugin">
+      <HintPath>..\GanttPlugins\GanttContentInfoPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="GanttControlLibrary">
+      <HintPath>..\GanttPlugins\GanttControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="GanttCustomizationLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GanttCustomizationLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="GanttDataIOPlugin">
+      <HintPath>..\GanttPlugins\GanttDataIOPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="GanttEditPlugin">
+      <HintPath>..\GanttPlugins\GanttEditPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="GanttViewPlugins">
+      <HintPath>..\GanttPlugins\GanttViewPlugins.dll</HintPath>
+    </Reference>
+    <Reference Include="GCEX">
+      <HintPath>..\..\GCEX.dll</HintPath>
+    </Reference>
+    <Reference Include="GCPM01, Version=3.0.5641.20826, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GC\GCPM01.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GCRS">
+      <HintPath>..\..\GC\GCRS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="iPlat.EP.v1.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\iPlat.EP.v1.0.dll</HintPath>
+    </Reference>
+    <Reference Include="PlguinFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PlguinFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PSSMD_S2N, Version=3.0.8712.28731, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\BSMesWare\TGCMS0\PS\PSSMD_S2N.dll</HintPath>
+    </Reference>
+    <Reference Include="PSSMGEControlLibrary, Version=1.0.6688.27556, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\客户端\太钢鑫海\PS\PSSMGEControlLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PSSMGEControlLibrary_S2N, Version=1.0.8707.27793, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\BSMesWare\TGCMS0\PS\PSSMGEControlLibrary_S2N.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <Name>System.Drawing.Design</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>..\GanttPlugins\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="FormPSSM182.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM182.designer.cs">
+      <DependentUpon>FormPSSM182.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM18.designer.cs">
+      <DependentUpon>FormPSSM18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM18B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM18B.designer.cs">
+      <DependentUpon>FormPSSM18B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM18O.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM18O.Designer.cs">
+      <DependentUpon>FormPSSM18O.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM18O2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM18O2.Designer.cs">
+      <DependentUpon>FormPSSM18O2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM18R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM18R.designer.cs">
+      <DependentUpon>FormPSSM18R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM18S.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM18S.designer.cs">
+      <DependentUpon>FormPSSM18S.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM18TPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM18TPS.designer.cs">
+      <DependentUpon>FormPSSM18TPS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28AddNumSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28AddNumSI.designer.cs">
+      <DependentUpon>FormPSSM28AddNumSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28AddDlgSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28AddDlgSI.designer.cs">
+      <DependentUpon>FormPSSM28AddDlgSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28CSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28CSI.designer.cs">
+      <DependentUpon>FormPSSM28CSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28SI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28SI.designer.cs">
+      <DependentUpon>FormPSSM28SI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28.designer.cs">
+      <DependentUpon>FormPSSM28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28AddDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28AddDlg.designer.cs">
+      <DependentUpon>FormPSSM28AddDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28B.designer.cs">
+      <DependentUpon>FormPSSM28B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28C.designer.cs">
+      <DependentUpon>FormPSSM28C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28Signal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28Signal.designer.cs">
+      <DependentUpon>FormPSSM28Signal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28STChgDlgSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28STChgDlgSI.designer.cs">
+      <DependentUpon>FormPSSM28STChgDlgSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM28STChgDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM28STChgDlg.designer.cs">
+      <DependentUpon>FormPSSM28STChgDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM35RetMgDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM35RetMgDlg.designer.cs">
+      <DependentUpon>FormPSSM35RetMgDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM35RetDlgSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM35RetDlgSI.designer.cs">
+      <DependentUpon>FormPSSM35RetDlgSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSM35RetDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSM35RetDlg.designer.cs">
+      <DependentUpon>FormPSSM35RetDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPSSMQUERY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPSSMQUERY.Designer.cs">
+      <DependentUpon>FormPSSMQUERY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PSUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormPSSM182.en.resx">
+      <DependentUpon>FormPSSM182.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM182.resx">
+      <DependentUpon>FormPSSM182.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM182.zh-CHT.resx">
+      <DependentUpon>FormPSSM182.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18.en.resx">
+      <DependentUpon>FormPSSM18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18.resx">
+      <DependentUpon>FormPSSM18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18.zh-CHT.resx">
+      <DependentUpon>FormPSSM18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18B.en.resx">
+      <DependentUpon>FormPSSM18B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18B.resx">
+      <DependentUpon>FormPSSM18B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18B.zh-CHT.resx">
+      <DependentUpon>FormPSSM18B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18O.resx">
+      <DependentUpon>FormPSSM18O.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18O2.resx">
+      <DependentUpon>FormPSSM18O2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18R.en.resx">
+      <DependentUpon>FormPSSM18R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18R.resx">
+      <DependentUpon>FormPSSM18R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18R.zh-CHT.resx">
+      <DependentUpon>FormPSSM18R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18S.en.resx">
+      <DependentUpon>FormPSSM18S.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18S.resx">
+      <DependentUpon>FormPSSM18S.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18S.zh-CHT.resx">
+      <DependentUpon>FormPSSM18S.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18TPS.en.resx">
+      <DependentUpon>FormPSSM18TPS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18TPS.resx">
+      <DependentUpon>FormPSSM18TPS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM18TPS.zh-CHT.resx">
+      <DependentUpon>FormPSSM18TPS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28AddNumSI.resx">
+      <DependentUpon>FormPSSM28AddNumSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28AddDlgSI.resx">
+      <DependentUpon>FormPSSM28AddDlgSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28CSI.resx">
+      <DependentUpon>FormPSSM28CSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28SI.resx">
+      <DependentUpon>FormPSSM28SI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28.resx">
+      <DependentUpon>FormPSSM28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28AddDlg.resx">
+      <DependentUpon>FormPSSM28AddDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28B.resx">
+      <DependentUpon>FormPSSM28B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28C.resx">
+      <DependentUpon>FormPSSM28C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28Signal.resx">
+      <DependentUpon>FormPSSM28Signal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28STChgDlgSI.resx">
+      <DependentUpon>FormPSSM28STChgDlgSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM28STChgDlg.resx">
+      <DependentUpon>FormPSSM28STChgDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM35RetMgDlg.resx">
+      <DependentUpon>FormPSSM35RetMgDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM35RetDlgSI.resx">
+      <DependentUpon>FormPSSM35RetDlgSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPSSM35RetDlg.resx">
+      <DependentUpon>FormPSSM35RetDlg.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

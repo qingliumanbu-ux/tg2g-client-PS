@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="efBtnOk.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="efBtnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 148</value>
+  </data>
+  <data name="&gt;&gt;efBtnOk.Name" xml:space="preserve">
+    <value>efBtnOk</value>
+  </data>
+  <data name="&gt;&gt;efBtnOk.Type" xml:space="preserve">
+    <value>EF.EFButton, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efBtnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efBtnOk.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="efBtnCancel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="efBtnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 148</value>
+  </data>
+  <data name="&gt;&gt;efBtnCancel.Name" xml:space="preserve">
+    <value>efBtnCancel</value>
+  </data>
+  <data name="&gt;&gt;efBtnCancel.Type" xml:space="preserve">
+    <value>EF.EFButton, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efBtnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efBtnCancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v19.1" name="DevExpress.XtraEditors.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=197ea8a807d237ae" />
+  <data name="efLabel1.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v19.1">
+    <value>None</value>
+  </data>
+  <data name="efLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 25</value>
+  </data>
+  <data name="efLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 19</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="efLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="efLabel1.Text" xml:space="preserve">
+    <value>*熔炼号</value>
+  </data>
+  <data name="&gt;&gt;efLabel1.Name" xml:space="preserve">
+    <value>efLabel1</value>
+  </data>
+  <data name="&gt;&gt;efLabel1.Type" xml:space="preserve">
+    <value>EF.EFLabel, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efLabel1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="efLabel2.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v19.1">
+    <value>None</value>
+  </data>
+  <data name="efLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 109</value>
+  </data>
+  <data name="efLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 19</value>
+  </data>
+  <data name="efLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="efLabel2.Text" xml:space="preserve">
+    <value>*回退位置</value>
+  </data>
+  <data name="&gt;&gt;efLabel2.Name" xml:space="preserve">
+    <value>efLabel2</value>
+  </data>
+  <data name="&gt;&gt;efLabel2.Type" xml:space="preserve">
+    <value>EF.EFLabel, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efLabel2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="efDevLookUpEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 109</value>
+  </data>
+  <data name="efDevLookUpEdit1.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="efDevLookUpEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="efDevLookUpEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;efDevLookUpEdit1.Name" xml:space="preserve">
+    <value>efDevLookUpEdit1</value>
+  </data>
+  <data name="&gt;&gt;efDevLookUpEdit1.Type" xml:space="preserve">
+    <value>EF.EFDevLookUpEdit, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efDevLookUpEdit1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efDevLookUpEdit1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="efDevComboBoxEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 25</value>
+  </data>
+  <data name="efDevComboBoxEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="efDevComboBoxEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit1.Name" xml:space="preserve">
+    <value>efDevComboBoxEdit1</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit1.Type" xml:space="preserve">
+    <value>EF.EFDevComboBoxEdit, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="efStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 200</value>
+  </data>
+  <data name="efStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="efStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;efStatusBar1.Name" xml:space="preserve">
+    <value>efStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;efStatusBar1.Type" xml:space="preserve">
+    <value>EF.EFStatusBar, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efStatusBar1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="statusBarPanel1.Name" xml:space="preserve">
+    <value>statusBarPanel1</value>
+  </data>
+  <data name="statusBarPanel1.Width" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="efLabel3.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v19.1">
+    <value>None</value>
+  </data>
+  <data name="efLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 54</value>
+  </data>
+  <data name="efLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 19</value>
+  </data>
+  <data name="efLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="efLabel3.Text" xml:space="preserve">
+    <value>*计划号</value>
+  </data>
+  <data name="&gt;&gt;efLabel3.Name" xml:space="preserve">
+    <value>efLabel3</value>
+  </data>
+  <data name="&gt;&gt;efLabel3.Type" xml:space="preserve">
+    <value>EF.EFLabel, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efLabel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="efDevComboBoxEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 54</value>
+  </data>
+  <data name="efDevComboBoxEdit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="efDevComboBoxEdit2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit2.Name" xml:space="preserve">
+    <value>efDevComboBoxEdit2</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit2.Type" xml:space="preserve">
+    <value>EF.EFDevComboBoxEdit, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efDevComboBoxEdit2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="efLabel4.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v19.1">
+    <value>None</value>
+  </data>
+  <data name="efLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 79</value>
+  </data>
+  <data name="efLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 19</value>
+  </data>
+  <data name="efLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="efLabel4.Text" xml:space="preserve">
+    <value>2级计划号</value>
+  </data>
+  <data name="&gt;&gt;efLabel4.Name" xml:space="preserve">
+    <value>efLabel4</value>
+  </data>
+  <data name="&gt;&gt;efLabel4.Type" xml:space="preserve">
+    <value>EF.EFLabel, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="efDevTextEdit1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="efDevTextEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 79</value>
+  </data>
+  <data name="efDevTextEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="efDevTextEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;efDevTextEdit1.Name" xml:space="preserve">
+    <value>efDevTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;efDevTextEdit1.Type" xml:space="preserve">
+    <value>EF.EFDevTextEdit, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;efDevTextEdit1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;efDevTextEdit1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>273, 222</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>状态回退</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanel1.Name" xml:space="preserve">
+    <value>statusBarPanel1</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormPSSM18S</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>EF.EFPopupForm, EF.v5.2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

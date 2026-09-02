@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_PSSM12" targetNamespace="http://tempuri.org/DS_PSSM12.xsd" xmlns:mstns="http://tempuri.org/DS_PSSM12.xsd" xmlns="http://tempuri.org/DS_PSSM12.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_PSSM12" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_PSSM12" msprop:Generator_UserDSName="DS_PSSM12">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TPSSM_CONST" msprop:Generator_TableClassName="TPSSM_CONSTDataTable" msprop:Generator_TableVarName="tableTPSSM_CONST" msprop:Generator_RowChangedName="TPSSM_CONSTRowChanged" msprop:Generator_TablePropName="TPSSM_CONST" msprop:Generator_RowDeletingName="TPSSM_CONSTRowDeleting" msprop:Generator_RowChangingName="TPSSM_CONSTRowChanging" msprop:Generator_RowEvHandlerName="TPSSM_CONSTRowChangeEventHandler" msprop:Generator_RowDeletedName="TPSSM_CONSTRowDeleted" msprop:Generator_RowClassName="TPSSM_CONSTRow" msprop:Generator_UserTableName="TPSSM_CONST" msprop:Generator_RowEvArgName="TPSSM_CONSTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REC_CREATOR" msdata:Caption="记录创建责任者" msprop:Generator_ColumnVarNameInTable="columnREC_CREATOR" msprop:Generator_ColumnPropNameInRow="REC_CREATOR" msprop:Generator_ColumnPropNameInTable="REC_CREATORColumn" msprop:Generator_UserColumnName="REC_CREATOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REC_CREATE_TIME" msdata:Caption="记录创建时刻" msprop:Generator_ColumnVarNameInTable="columnREC_CREATE_TIME" msprop:Generator_ColumnPropNameInRow="REC_CREATE_TIME" msprop:Generator_ColumnPropNameInTable="REC_CREATE_TIMEColumn" msprop:Generator_UserColumnName="REC_CREATE_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="REC_REVISOR" msdata:Caption="记录修改责任者" msprop:Generator_ColumnVarNameInTable="columnREC_REVISOR" msprop:Generator_ColumnPropNameInRow="REC_REVISOR" msprop:Generator_ColumnPropNameInTable="REC_REVISORColumn" msprop:Generator_UserColumnName="REC_REVISOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REC_REVISE_TIME" msdata:Caption="记录修改时刻" msprop:Generator_ColumnVarNameInTable="columnREC_REVISE_TIME" msprop:Generator_ColumnPropNameInRow="REC_REVISE_TIME" msprop:Generator_ColumnPropNameInTable="REC_REVISE_TIMEColumn" msprop:Generator_UserColumnName="REC_REVISE_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ARCHIVE_FLAG" msdata:Caption="归档标记" msprop:Generator_ColumnVarNameInTable="columnARCHIVE_FLAG" msprop:Generator_ColumnPropNameInRow="ARCHIVE_FLAG" msprop:Generator_ColumnPropNameInTable="ARCHIVE_FLAGColumn" msprop:Generator_UserColumnName="ARCHIVE_FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SM_UNIT_NO" msdata:Caption="炼钢单元号" msprop:Generator_ColumnVarNameInTable="columnSM_UNIT_NO" msprop:Generator_ColumnPropNameInRow="SM_UNIT_NO" msprop:Generator_ColumnPropNameInTable="SM_UNIT_NOColumn" msprop:Generator_UserColumnName="SM_UNIT_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SM_PLAN_NO" msdata:Caption="计划号" msprop:Generator_ColumnVarNameInTable="columnSM_PLAN_NO" msprop:Generator_ColumnPropNameInRow="SM_PLAN_NO" msprop:Generator_ColumnPropNameInTable="SM_PLAN_NOColumn" msprop:Generator_UserColumnName="SM_PLAN_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HEAT_NO" msdata:Caption="熔炼号" msprop:Generator_ColumnVarNameInTable="columnHEAT_NO" msprop:Generator_ColumnPropNameInRow="HEAT_NO" msprop:Generator_ColumnPropNameInTable="HEAT_NOColumn" msprop:Generator_UserColumnName="HEAT_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PONO" msdata:Caption="制造命令号" msprop:Generator_ColumnVarNameInTable="columnPONO" msprop:Generator_ColumnPropNameInRow="PONO" msprop:Generator_ColumnPropNameInTable="PONOColumn" msprop:Generator_UserColumnName="PONO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ST_NO" msdata:Caption="钢种" msprop:Generator_ColumnVarNameInTable="columnST_NO" msprop:Generator_ColumnPropNameInRow="ST_NO" msprop:Generator_ColumnPropNameInTable="ST_NOColumn" msprop:Generator_UserColumnName="ST_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SMELT_MODE" msdata:Caption="冶炼模式" msprop:Generator_ColumnVarNameInTable="columnSMELT_MODE" msprop:Generator_ColumnPropNameInRow="SMELT_MODE" msprop:Generator_ColumnPropNameInTable="SMELT_MODEColumn" msprop:Generator_UserColumnName="SMELT_MODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IC_CC_FLAG" msdata:Caption="模连铸标志" msprop:Generator_ColumnVarNameInTable="columnIC_CC_FLAG" msprop:Generator_ColumnPropNameInRow="IC_CC_FLAG" msprop:Generator_ColumnPropNameInTable="IC_CC_FLAGColumn" msprop:Generator_UserColumnName="IC_CC_FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BACKLOG_EA" msdata:Caption="钢区工序途径" msprop:Generator_ColumnVarNameInTable="columnBACKLOG_EA" msprop:Generator_ColumnPropNameInRow="BACKLOG_EA" msprop:Generator_ColumnPropNameInTable="BACKLOG_EAColumn" msprop:Generator_UserColumnName="BACKLOG_EA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SR_ROUTE" msdata:Caption="精炼路径" msprop:Generator_ColumnVarNameInTable="columnSR_ROUTE" msprop:Generator_ColumnPropNameInRow="SR_ROUTE" msprop:Generator_ColumnPropNameInTable="SR_ROUTEColumn" msprop:Generator_UserColumnName="SR_ROUTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STEEL_RETURN_CODE" msdata:Caption="钢水返送" msprop:Generator_ColumnVarNameInTable="columnSTEEL_RETURN_CODE" msprop:Generator_ColumnPropNameInRow="STEEL_RETURN_CODE" msprop:Generator_ColumnPropNameInTable="STEEL_RETURN_CODEColumn" msprop:Generator_UserColumnName="STEEL_RETURN_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CC_MACH_NO" msdata:Caption="连铸机号" msprop:Generator_ColumnVarNameInTable="columnCC_MACH_NO" msprop:Generator_ColumnPropNameInRow="CC_MACH_NO" msprop:Generator_ColumnPropNameInTable="CC_MACH_NOColumn" msprop:Generator_UserColumnName="CC_MACH_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RESTRAND_FLAG" msdata:Caption="连连" msprop:Generator_ColumnVarNameInTable="columnRESTRAND_FLAG" msprop:Generator_ColumnPropNameInRow="RESTRAND_FLAG" msprop:Generator_ColumnPropNameInTable="RESTRAND_FLAGColumn" msprop:Generator_UserColumnName="RESTRAND_FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAST_NO_SHOW" msdata:Caption="浇次号" msprop:Generator_ColumnVarNameInTable="columnCAST_NO_SHOW" msprop:Generator_ColumnPropNameInRow="CAST_NO_SHOW" msprop:Generator_ColumnPropNameInTable="CAST_NO_SHOWColumn" msprop:Generator_UserColumnName="CAST_NO_SHOW" type="xs:string" minOccurs="0" />
+              <xs:element name="TD_CHG_FLAG" msdata:Caption="换中包标志" msprop:Generator_ColumnVarNameInTable="columnTD_CHG_FLAG" msprop:Generator_ColumnPropNameInRow="TD_CHG_FLAG" msprop:Generator_ColumnPropNameInTable="TD_CHG_FLAGColumn" msprop:Generator_UserColumnName="TD_CHG_FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INS_FE_FLAG" msdata:Caption="插铁板标记" msprop:Generator_ColumnVarNameInTable="columnINS_FE_FLAG" msprop:Generator_ColumnPropNameInRow="INS_FE_FLAG" msprop:Generator_ColumnPropNameInTable="INS_FE_FLAGColumn" msprop:Generator_UserColumnName="INS_FE_FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LADLE_NO" msdata:Caption="钢包号" msprop:Generator_ColumnVarNameInTable="columnLADLE_NO" msprop:Generator_ColumnPropNameInRow="LADLE_NO" msprop:Generator_ColumnPropNameInTable="LADLE_NOColumn" msprop:Generator_UserColumnName="LADLE_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CC_REQ_TIME" msdata:Caption="CC要求时刻设定" msprop:Generator_ColumnVarNameInTable="columnCC_REQ_TIME" msprop:Generator_ColumnPropNameInRow="CC_REQ_TIME" msprop:Generator_ColumnPropNameInTable="CC_REQ_TIMEColumn" msprop:Generator_UserColumnName="CC_REQ_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="POUR_TIME" msdata:Caption="浇注时刻" msprop:Generator_ColumnVarNameInTable="columnPOUR_TIME" msprop:Generator_ColumnPropNameInRow="POUR_TIME" msprop:Generator_ColumnPropNameInTable="POUR_TIMEColumn" msprop:Generator_UserColumnName="POUR_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="RUN_STATUS" msdata:Caption="运转状态" msprop:Generator_ColumnVarNameInTable="columnRUN_STATUS" msprop:Generator_ColumnPropNameInRow="RUN_STATUS" msprop:Generator_ColumnPropNameInTable="RUN_STATUSColumn" msprop:Generator_UserColumnName="RUN_STATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DS_DEV" msdata:Caption="脱硫设备号" msprop:Generator_ColumnVarNameInTable="columnDS_DEV" msprop:Generator_ColumnPropNameInRow="DS_DEV" msprop:Generator_ColumnPropNameInTable="DS_DEVColumn" msprop:Generator_UserColumnName="DS_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_PROC_TIME" msdata:Caption="脱S处理时间" msprop:Generator_ColumnVarNameInTable="columnDS_PROC_TIME" msprop:Generator_ColumnPropNameInRow="DS_PROC_TIME" msprop:Generator_ColumnPropNameInTable="DS_PROC_TIMEColumn" msprop:Generator_UserColumnName="DS_PROC_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="DS_REST_TIME" msdata:Caption="脱S休辅时间" msprop:Generator_ColumnVarNameInTable="columnDS_REST_TIME" msprop:Generator_ColumnPropNameInRow="DS_REST_TIME" msprop:Generator_ColumnPropNameInTable="DS_REST_TIMEColumn" msprop:Generator_UserColumnName="DS_REST_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="DS_FLAG" msdata:Caption="脱硫开始标记" msprop:Generator_ColumnVarNameInTable="columnDS_FLAG" msprop:Generator_ColumnPropNameInRow="DS_FLAG" msprop:Generator_ColumnPropNameInTable="DS_FLAGColumn" msprop:Generator_UserColumnName="DS_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="DP_DEV" msdata:Caption="脱P炉号" msprop:Generator_ColumnVarNameInTable="columnDP_DEV" msprop:Generator_ColumnPropNameInRow="DP_DEV" msprop:Generator_ColumnPropNameInTable="DP_DEVColumn" msprop:Generator_UserColumnName="DP_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="DP_LOAD_TIME" msdata:Caption="脱P装入" msprop:Generator_ColumnVarNameInTable="columnDP_LOAD_TIME" msprop:Generator_ColumnPropNameInRow="DP_LOAD_TIME" msprop:Generator_ColumnPropNameInTable="DP_LOAD_TIMEColumn" msprop:Generator_UserColumnName="DP_LOAD_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="DP_PROC_TIME" msdata:Caption="脱P处理时间" msprop:Generator_ColumnVarNameInTable="columnDP_PROC_TIME" msprop:Generator_ColumnPropNameInRow="DP_PROC_TIME" msprop:Generator_ColumnPropNameInTable="DP_PROC_TIMEColumn" msprop:Generator_UserColumnName="DP_PROC_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="DP_TAP_TIME" msdata:Caption="脱P出钢" msprop:Generator_ColumnVarNameInTable="columnDP_TAP_TIME" msprop:Generator_ColumnPropNameInRow="DP_TAP_TIME" msprop:Generator_ColumnPropNameInTable="DP_TAP_TIMEColumn" msprop:Generator_UserColumnName="DP_TAP_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="DP_REST_TIME" msdata:Caption="脱P炉休辅时间" msprop:Generator_ColumnVarNameInTable="columnDP_REST_TIME" msprop:Generator_ColumnPropNameInRow="DP_REST_TIME" msprop:Generator_ColumnPropNameInTable="DP_REST_TIMEColumn" msprop:Generator_UserColumnName="DP_REST_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="DP_FLAG" msdata:Caption="脱P开始标记" msprop:Generator_ColumnVarNameInTable="columnDP_FLAG" msprop:Generator_ColumnPropNameInRow="DP_FLAG" msprop:Generator_ColumnPropNameInTable="DP_FLAGColumn" msprop:Generator_UserColumnName="DP_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_DEV" msdata:Caption="脱C炉" msprop:Generator_ColumnVarNameInTable="columnSM_DEV" msprop:Generator_ColumnPropNameInRow="SM_DEV" msprop:Generator_ColumnPropNameInTable="SM_DEVColumn" msprop:Generator_UserColumnName="SM_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_LOAD_TIME" msdata:Caption="脱C装入" msprop:Generator_ColumnVarNameInTable="columnSM_LOAD_TIME" msprop:Generator_ColumnPropNameInRow="SM_LOAD_TIME" msprop:Generator_ColumnPropNameInTable="SM_LOAD_TIMEColumn" msprop:Generator_UserColumnName="SM_LOAD_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="SM_PROC_TIME" msdata:Caption="脱C处理时间" msprop:Generator_ColumnVarNameInTable="columnSM_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SM_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SM_PROC_TIMEColumn" msprop:Generator_UserColumnName="SM_PROC_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="SM_TAP_TIME" msdata:Caption="脱P出钢" msprop:Generator_ColumnVarNameInTable="columnSM_TAP_TIME" msprop:Generator_ColumnPropNameInRow="SM_TAP_TIME" msprop:Generator_ColumnPropNameInTable="SM_TAP_TIMEColumn" msprop:Generator_UserColumnName="SM_TAP_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="SM_REST_TIME" msdata:Caption="脱C炉休辅时间" msprop:Generator_ColumnVarNameInTable="columnSM_REST_TIME" msprop:Generator_ColumnPropNameInRow="SM_REST_TIME" msprop:Generator_ColumnPropNameInTable="SM_REST_TIMEColumn" msprop:Generator_UserColumnName="SM_REST_TIME" type="xs:int" minOccurs="0" />
+              <xs:element name="SM_FLAG" msdata:Caption="炼钢开始标记" msprop:Generator_ColumnVarNameInTable="columnSM_FLAG" msprop:Generator_ColumnPropNameInRow="SM_FLAG" msprop:Generator_ColumnPropNameInTable="SM_FLAGColumn" msprop:Generator_UserColumnName="SM_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR1_DEV" msdata:Caption="精炼1设备" msprop:Generator_ColumnVarNameInTable="columnSR1_DEV" msprop:Generator_ColumnPropNameInRow="SR1_DEV" msprop:Generator_ColumnPropNameInTable="SR1_DEVColumn" msprop:Generator_UserColumnName="SR1_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR1_PROC_TIME" msdata:Caption="精炼1处理时间" msprop:Generator_ColumnVarNameInTable="columnSR1_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR1_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR1_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR1_PROC_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SR1_REST_TIME" msdata:Caption="SR1休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR1_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR1_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR1_REST_TIMEColumn" msprop:Generator_UserColumnName="SR1_REST_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SR1_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR1_FLAG" msprop:Generator_ColumnPropNameInRow="SR1_FLAG" msprop:Generator_ColumnPropNameInTable="SR1_FLAGColumn" msprop:Generator_UserColumnName="SR1_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR2_DEV" msdata:Caption="精炼2设备" msprop:Generator_ColumnVarNameInTable="columnSR2_DEV" msprop:Generator_ColumnPropNameInRow="SR2_DEV" msprop:Generator_ColumnPropNameInTable="SR2_DEVColumn" msprop:Generator_UserColumnName="SR2_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR2_PROC_TIME" msdata:Caption="精炼2处理时间" msprop:Generator_ColumnVarNameInTable="columnSR2_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR2_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR2_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR2_PROC_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SR2_REST_TIME" msdata:Caption="SR2休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR2_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR2_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR2_REST_TIMEColumn" msprop:Generator_UserColumnName="SR2_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR2_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR2_FLAG" msprop:Generator_ColumnPropNameInRow="SR2_FLAG" msprop:Generator_ColumnPropNameInTable="SR2_FLAGColumn" msprop:Generator_UserColumnName="SR2_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR3_DEV" msdata:Caption="精炼3设备" msprop:Generator_ColumnVarNameInTable="columnSR3_DEV" msprop:Generator_ColumnPropNameInRow="SR3_DEV" msprop:Generator_ColumnPropNameInTable="SR3_DEVColumn" msprop:Generator_UserColumnName="SR3_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR3_PROC_TIME" msdata:Caption="SR3处理时间" msprop:Generator_ColumnVarNameInTable="columnSR3_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR3_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR3_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR3_PROC_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SR3_REST_TIME" msdata:Caption="SR3休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR3_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR3_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR3_REST_TIMEColumn" msprop:Generator_UserColumnName="SR3_REST_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SR3_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR3_FLAG" msprop:Generator_ColumnPropNameInRow="SR3_FLAG" msprop:Generator_ColumnPropNameInTable="SR3_FLAGColumn" msprop:Generator_UserColumnName="SR3_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR4_DEV" msdata:Caption="精炼4设备" msprop:Generator_ColumnVarNameInTable="columnSR4_DEV" msprop:Generator_ColumnPropNameInRow="SR4_DEV" msprop:Generator_ColumnPropNameInTable="SR4_DEVColumn" msprop:Generator_UserColumnName="SR4_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR4_PROC_TIME" msdata:Caption="精炼4处理时间" msprop:Generator_ColumnVarNameInTable="columnSR4_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR4_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR4_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR4_PROC_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SR4_REST_TIME" msdata:Caption="SR4休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR4_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR4_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR4_REST_TIMEColumn" msprop:Generator_UserColumnName="SR4_REST_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SR4_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR4_FLAG" msprop:Generator_ColumnPropNameInRow="SR4_FLAG" msprop:Generator_ColumnPropNameInTable="SR4_FLAGColumn" msprop:Generator_UserColumnName="SR4_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="CC_PROC_TIME" msdata:Caption="连铸浇铸时间" msprop:Generator_ColumnVarNameInTable="columnCC_PROC_TIME" msprop:Generator_ColumnPropNameInRow="CC_PROC_TIME" msprop:Generator_ColumnPropNameInTable="CC_PROC_TIMEColumn" msprop:Generator_UserColumnName="CC_PROC_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CC_REST_TIME" msdata:Caption="CC休辅时间" msprop:Generator_ColumnVarNameInTable="columnCC_REST_TIME" msprop:Generator_ColumnPropNameInRow="CC_REST_TIME" msprop:Generator_ColumnPropNameInTable="CC_REST_TIMEColumn" msprop:Generator_UserColumnName="CC_REST_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CC_FLAG" msdata:Caption="连铸开始标记" msprop:Generator_ColumnVarNameInTable="columnCC_FLAG" msprop:Generator_ColumnPropNameInRow="CC_FLAG" msprop:Generator_ColumnPropNameInTable="CC_FLAGColumn" msprop:Generator_UserColumnName="CC_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="PONO_STATUS" msdata:Caption="命令状态" msprop:Generator_ColumnVarNameInTable="columnPONO_STATUS" msprop:Generator_ColumnPropNameInRow="PONO_STATUS" msprop:Generator_ColumnPropNameInTable="PONO_STATUSColumn" msprop:Generator_UserColumnName="PONO_STATUS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PLAN_TAP_WT" msdata:Caption="计划钢水量(t)" msprop:Generator_ColumnVarNameInTable="columnPLAN_TAP_WT" msprop:Generator_ColumnPropNameInRow="PLAN_TAP_WT" msprop:Generator_ColumnPropNameInTable="PLAN_TAP_WTColumn" msprop:Generator_UserColumnName="PLAN_TAP_WT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CURR_WP_NO" msdata:Caption="当前工序号" msprop:Generator_ColumnVarNameInTable="columnCURR_WP_NO" msprop:Generator_ColumnPropNameInRow="CURR_WP_NO" msprop:Generator_ColumnPropNameInTable="CURR_WP_NOColumn" msprop:Generator_UserColumnName="CURR_WP_NO" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DS_DEV" msprop:Generator_TableClassName="DS_DEVDataTable" msprop:Generator_TableVarName="tableDS_DEV" msprop:Generator_RowChangedName="DS_DEVRowChanged" msprop:Generator_TablePropName="DS_DEV" msprop:Generator_RowDeletingName="DS_DEVRowDeleting" msprop:Generator_RowChangingName="DS_DEVRowChanging" msprop:Generator_RowEvHandlerName="DS_DEVRowChangeEventHandler" msprop:Generator_RowDeletedName="DS_DEVRowDeleted" msprop:Generator_RowClassName="DS_DEVRow" msprop:Generator_UserTableName="DS_DEV" msprop:Generator_RowEvArgName="DS_DEVRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEV_NO" msdata:Caption="设备号" msprop:Generator_ColumnVarNameInTable="columnDEV_NO" msprop:Generator_ColumnPropNameInRow="DEV_NO" msprop:Generator_ColumnPropNameInTable="DEV_NOColumn" msprop:Generator_UserColumnName="DEV_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_CODE" msdata:Caption="设备代码" msprop:Generator_ColumnVarNameInTable="columnDEV_CODE" msprop:Generator_ColumnPropNameInRow="DEV_CODE" msprop:Generator_ColumnPropNameInTable="DEV_CODEColumn" msprop:Generator_UserColumnName="DEV_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_DESC" msdata:Caption="设备描述" msprop:Generator_ColumnVarNameInTable="columnDEV_DESC" msprop:Generator_ColumnPropNameInRow="DEV_DESC" msprop:Generator_ColumnPropNameInTable="DEV_DESCColumn" msprop:Generator_UserColumnName="DEV_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DP_DEV" msprop:Generator_TableClassName="DP_DEVDataTable" msprop:Generator_TableVarName="tableDP_DEV" msprop:Generator_RowChangedName="DP_DEVRowChanged" msprop:Generator_TablePropName="DP_DEV" msprop:Generator_RowDeletingName="DP_DEVRowDeleting" msprop:Generator_RowChangingName="DP_DEVRowChanging" msprop:Generator_RowEvHandlerName="DP_DEVRowChangeEventHandler" msprop:Generator_RowDeletedName="DP_DEVRowDeleted" msprop:Generator_RowClassName="DP_DEVRow" msprop:Generator_UserTableName="DP_DEV" msprop:Generator_RowEvArgName="DP_DEVRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEV_NO" msdata:Caption="设备号" msprop:Generator_ColumnVarNameInTable="columnDEV_NO" msprop:Generator_ColumnPropNameInRow="DEV_NO" msprop:Generator_ColumnPropNameInTable="DEV_NOColumn" msprop:Generator_UserColumnName="DEV_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_CODE" msdata:Caption="设备代码" msprop:Generator_ColumnVarNameInTable="columnDEV_CODE" msprop:Generator_ColumnPropNameInRow="DEV_CODE" msprop:Generator_ColumnPropNameInTable="DEV_CODEColumn" msprop:Generator_UserColumnName="DEV_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_DESC" msdata:Caption="设备描述" msprop:Generator_ColumnVarNameInTable="columnDEV_DESC" msprop:Generator_ColumnPropNameInRow="DEV_DESC" msprop:Generator_ColumnPropNameInTable="DEV_DESCColumn" msprop:Generator_UserColumnName="DEV_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SM_DEV" msprop:Generator_TableClassName="SM_DEVDataTable" msprop:Generator_TableVarName="tableSM_DEV" msprop:Generator_RowChangedName="SM_DEVRowChanged" msprop:Generator_TablePropName="SM_DEV" msprop:Generator_RowDeletingName="SM_DEVRowDeleting" msprop:Generator_RowChangingName="SM_DEVRowChanging" msprop:Generator_RowEvHandlerName="SM_DEVRowChangeEventHandler" msprop:Generator_RowDeletedName="SM_DEVRowDeleted" msprop:Generator_RowClassName="SM_DEVRow" msprop:Generator_UserTableName="SM_DEV" msprop:Generator_RowEvArgName="SM_DEVRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEV_NO" msdata:Caption="设备号" msprop:Generator_ColumnVarNameInTable="columnDEV_NO" msprop:Generator_ColumnPropNameInRow="DEV_NO" msprop:Generator_ColumnPropNameInTable="DEV_NOColumn" msprop:Generator_UserColumnName="DEV_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_CODE" msdata:Caption="设备代码" msprop:Generator_ColumnVarNameInTable="columnDEV_CODE" msprop:Generator_ColumnPropNameInRow="DEV_CODE" msprop:Generator_ColumnPropNameInTable="DEV_CODEColumn" msprop:Generator_UserColumnName="DEV_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_DESC" msdata:Caption="设备描述" msprop:Generator_ColumnVarNameInTable="columnDEV_DESC" msprop:Generator_ColumnPropNameInRow="DEV_DESC" msprop:Generator_ColumnPropNameInTable="DEV_DESCColumn" msprop:Generator_UserColumnName="DEV_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SR_DEV" msprop:Generator_TableClassName="SR_DEVDataTable" msprop:Generator_TableVarName="tableSR_DEV" msprop:Generator_RowChangedName="SR_DEVRowChanged" msprop:Generator_TablePropName="SR_DEV" msprop:Generator_RowDeletingName="SR_DEVRowDeleting" msprop:Generator_RowChangingName="SR_DEVRowChanging" msprop:Generator_RowEvHandlerName="SR_DEVRowChangeEventHandler" msprop:Generator_RowDeletedName="SR_DEVRowDeleted" msprop:Generator_RowClassName="SR_DEVRow" msprop:Generator_UserTableName="SR_DEV" msprop:Generator_RowEvArgName="SR_DEVRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEV_NO" msdata:Caption="设备号" msprop:Generator_ColumnVarNameInTable="columnDEV_NO" msprop:Generator_ColumnPropNameInRow="DEV_NO" msprop:Generator_ColumnPropNameInTable="DEV_NOColumn" msprop:Generator_UserColumnName="DEV_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_CODE" msdata:Caption="设备代码" msprop:Generator_ColumnVarNameInTable="columnDEV_CODE" msprop:Generator_ColumnPropNameInRow="DEV_CODE" msprop:Generator_ColumnPropNameInTable="DEV_CODEColumn" msprop:Generator_UserColumnName="DEV_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_DESC" msdata:Caption="设备描述" msprop:Generator_ColumnVarNameInTable="columnDEV_DESC" msprop:Generator_ColumnPropNameInRow="DEV_DESC" msprop:Generator_ColumnPropNameInTable="DEV_DESCColumn" msprop:Generator_UserColumnName="DEV_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CC_DEV" msprop:Generator_TableClassName="CC_DEVDataTable" msprop:Generator_TableVarName="tableCC_DEV" msprop:Generator_RowChangedName="CC_DEVRowChanged" msprop:Generator_TablePropName="CC_DEV" msprop:Generator_RowDeletingName="CC_DEVRowDeleting" msprop:Generator_RowChangingName="CC_DEVRowChanging" msprop:Generator_RowEvHandlerName="CC_DEVRowChangeEventHandler" msprop:Generator_RowDeletedName="CC_DEVRowDeleted" msprop:Generator_RowClassName="CC_DEVRow" msprop:Generator_UserTableName="CC_DEV" msprop:Generator_RowEvArgName="CC_DEVRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEV_NO" msdata:Caption="设备号" msprop:Generator_ColumnVarNameInTable="columnDEV_NO" msprop:Generator_ColumnPropNameInRow="DEV_NO" msprop:Generator_ColumnPropNameInTable="DEV_NOColumn" msprop:Generator_UserColumnName="DEV_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_CODE" msdata:Caption="设备代码" msprop:Generator_ColumnVarNameInTable="columnDEV_CODE" msprop:Generator_ColumnPropNameInRow="DEV_CODE" msprop:Generator_ColumnPropNameInTable="DEV_CODEColumn" msprop:Generator_UserColumnName="DEV_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DEV_DESC" msdata:Caption="设备描述" msprop:Generator_ColumnVarNameInTable="columnDEV_DESC" msprop:Generator_ColumnPropNameInRow="DEV_DESC" msprop:Generator_ColumnPropNameInTable="DEV_DESCColumn" msprop:Generator_UserColumnName="DEV_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SMELT_MODE" msprop:Generator_TableClassName="SMELT_MODEDataTable" msprop:Generator_TableVarName="tableSMELT_MODE" msprop:Generator_RowChangedName="SMELT_MODERowChanged" msprop:Generator_TablePropName="SMELT_MODE" msprop:Generator_RowDeletingName="SMELT_MODERowDeleting" msprop:Generator_RowChangingName="SMELT_MODERowChanging" msprop:Generator_RowEvHandlerName="SMELT_MODERowChangeEventHandler" msprop:Generator_RowDeletedName="SMELT_MODERowDeleted" msprop:Generator_RowClassName="SMELT_MODERow" msprop:Generator_UserTableName="SMELT_MODE" msprop:Generator_RowEvArgName="SMELT_MODERowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SMELT_MODE" msdata:Caption="冶炼模式" msprop:Generator_ColumnVarNameInTable="columnSMELT_MODE" msprop:Generator_ColumnPropNameInRow="SMELT_MODE" msprop:Generator_ColumnPropNameInTable="SMELT_MODEColumn" msprop:Generator_UserColumnName="SMELT_MODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SMELT_DESC" msdata:Caption="说明" msprop:Generator_ColumnVarNameInTable="columnSMELT_DESC" msprop:Generator_ColumnPropNameInRow="SMELT_DESC" msprop:Generator_ColumnPropNameInTable="SMELT_DESCColumn" msprop:Generator_UserColumnName="SMELT_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TPSSM12A" msprop:Generator_TableClassName="TPSSM12ADataTable" msprop:Generator_TableVarName="tableTPSSM12A" msprop:Generator_TablePropName="TPSSM12A" msprop:Generator_RowDeletingName="TPSSM12ARowDeleting" msprop:Generator_RowChangingName="TPSSM12ARowChanging" msprop:Generator_RowEvHandlerName="TPSSM12ARowChangeEventHandler" msprop:Generator_RowDeletedName="TPSSM12ARowDeleted" msprop:Generator_UserTableName="TPSSM12A" msprop:Generator_RowChangedName="TPSSM12ARowChanged" msprop:Generator_RowEvArgName="TPSSM12ARowChangeEvent" msprop:Generator_RowClassName="TPSSM12ARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SM_PLAN_NO" msdata:Caption="计划号" msprop:Generator_ColumnVarNameInTable="columnSM_PLAN_NO" msprop:Generator_ColumnPropNameInRow="SM_PLAN_NO" msprop:Generator_ColumnPropNameInTable="SM_PLAN_NOColumn" msprop:Generator_UserColumnName="SM_PLAN_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HEAT_NO" msdata:Caption="熔炼号" msprop:Generator_ColumnVarNameInTable="columnHEAT_NO" msprop:Generator_ColumnPropNameInRow="HEAT_NO" msprop:Generator_ColumnPropNameInTable="HEAT_NOColumn" msprop:Generator_UserColumnName="HEAT_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PONO" msdata:Caption="制造命令号" msprop:Generator_ColumnVarNameInTable="columnPONO" msprop:Generator_ColumnPropNameInRow="PONO" msprop:Generator_ColumnPropNameInTable="PONOColumn" msprop:Generator_UserColumnName="PONO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ST_NO" msdata:Caption="钢种" msprop:Generator_ColumnVarNameInTable="columnST_NO" msprop:Generator_ColumnPropNameInRow="ST_NO" msprop:Generator_ColumnPropNameInTable="ST_NOColumn" msprop:Generator_UserColumnName="ST_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SMELT_MODE" msdata:Caption="冶炼模式" msprop:Generator_ColumnVarNameInTable="columnSMELT_MODE" msprop:Generator_ColumnPropNameInRow="SMELT_MODE" msprop:Generator_ColumnPropNameInTable="SMELT_MODEColumn" msprop:Generator_UserColumnName="SMELT_MODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SR_ROUTE" msdata:Caption="精炼路径" msprop:Generator_ColumnVarNameInTable="columnSR_ROUTE" msprop:Generator_ColumnPropNameInRow="SR_ROUTE" msprop:Generator_ColumnPropNameInTable="SR_ROUTEColumn" msprop:Generator_UserColumnName="SR_ROUTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CC_MACH_NO" msdata:Caption="连铸机号" msprop:Generator_ColumnVarNameInTable="columnCC_MACH_NO" msprop:Generator_ColumnPropNameInRow="CC_MACH_NO" msprop:Generator_ColumnPropNameInTable="CC_MACH_NOColumn" msprop:Generator_UserColumnName="CC_MACH_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RESTRAND_FLAG" msdata:Caption="连连" msprop:Generator_ColumnVarNameInTable="columnRESTRAND_FLAG" msprop:Generator_ColumnPropNameInRow="RESTRAND_FLAG" msprop:Generator_ColumnPropNameInTable="RESTRAND_FLAGColumn" msprop:Generator_UserColumnName="RESTRAND_FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TD_CHG_FLAG" msdata:Caption="换中包标志" msprop:Generator_ColumnVarNameInTable="columnTD_CHG_FLAG" msprop:Generator_ColumnPropNameInRow="TD_CHG_FLAG" msprop:Generator_ColumnPropNameInTable="TD_CHG_FLAGColumn" msprop:Generator_UserColumnName="TD_CHG_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="INS_FE_FLAG" msdata:Caption="插铁板标记" msprop:Generator_ColumnVarNameInTable="columnINS_FE_FLAG" msprop:Generator_ColumnPropNameInRow="INS_FE_FLAG" msprop:Generator_ColumnPropNameInTable="INS_FE_FLAGColumn" msprop:Generator_UserColumnName="INS_FE_FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAST_NO_SHOW" msdata:Caption="浇次号" msprop:Generator_ColumnVarNameInTable="columnCAST_NO_SHOW" msprop:Generator_ColumnPropNameInRow="CAST_NO_SHOW" msprop:Generator_ColumnPropNameInTable="CAST_NO_SHOWColumn" msprop:Generator_UserColumnName="CAST_NO_SHOW" type="xs:string" minOccurs="0" />
+              <xs:element name="LADLE_NO" msdata:Caption="钢包号" msprop:Generator_ColumnVarNameInTable="columnLADLE_NO" msprop:Generator_ColumnPropNameInRow="LADLE_NO" msprop:Generator_ColumnPropNameInTable="LADLE_NOColumn" msprop:Generator_UserColumnName="LADLE_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CC_REQ_TIME" msdata:Caption="CC要求时刻设定" msprop:Generator_ColumnVarNameInTable="columnCC_REQ_TIME" msprop:Generator_ColumnPropNameInRow="CC_REQ_TIME" msprop:Generator_ColumnPropNameInTable="CC_REQ_TIMEColumn" msprop:Generator_UserColumnName="CC_REQ_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="POUR_TIME" msdata:Caption="浇注时刻指定" msprop:Generator_ColumnVarNameInTable="columnPOUR_TIME" msprop:Generator_ColumnPropNameInRow="POUR_TIME" msprop:Generator_ColumnPropNameInTable="POUR_TIMEColumn" msprop:Generator_UserColumnName="POUR_TIME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RUN_STATUS" msdata:Caption="运转状态" msprop:Generator_ColumnVarNameInTable="columnRUN_STATUS" msprop:Generator_ColumnPropNameInRow="RUN_STATUS" msprop:Generator_ColumnPropNameInTable="RUN_STATUSColumn" msprop:Generator_UserColumnName="RUN_STATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DP_DEV" msdata:Caption="脱P炉号" msprop:Generator_ColumnVarNameInTable="columnDP_DEV" msprop:Generator_ColumnPropNameInRow="DP_DEV" msprop:Generator_ColumnPropNameInTable="DP_DEVColumn" msprop:Generator_UserColumnName="DP_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="DP_LOAD_TIME" msdata:Caption="脱P装入" msprop:Generator_ColumnVarNameInTable="columnDP_LOAD_TIME" msprop:Generator_ColumnPropNameInRow="DP_LOAD_TIME" msprop:Generator_ColumnPropNameInTable="DP_LOAD_TIMEColumn" msprop:Generator_UserColumnName="DP_LOAD_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DP_PROC_TIME" msdata:Caption="脱P处理时间" msprop:Generator_ColumnVarNameInTable="columnDP_PROC_TIME" msprop:Generator_ColumnPropNameInRow="DP_PROC_TIME" msprop:Generator_ColumnPropNameInTable="DP_PROC_TIMEColumn" msprop:Generator_UserColumnName="DP_PROC_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="DP_TAP_TIME" msdata:Caption="脱P出钢" msprop:Generator_ColumnVarNameInTable="columnDP_TAP_TIME" msprop:Generator_ColumnPropNameInRow="DP_TAP_TIME" msprop:Generator_ColumnPropNameInTable="DP_TAP_TIMEColumn" msprop:Generator_UserColumnName="DP_TAP_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DP_REST_TIME" msdata:Caption="脱P炉休辅时间" msprop:Generator_ColumnVarNameInTable="columnDP_REST_TIME" msprop:Generator_ColumnPropNameInRow="DP_REST_TIME" msprop:Generator_ColumnPropNameInTable="DP_REST_TIMEColumn" msprop:Generator_UserColumnName="DP_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="DP_FLAG" msdata:Caption="脱P开始标记" msprop:Generator_ColumnVarNameInTable="columnDP_FLAG" msprop:Generator_ColumnPropNameInRow="DP_FLAG" msprop:Generator_ColumnPropNameInTable="DP_FLAGColumn" msprop:Generator_UserColumnName="DP_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_DEV" msdata:Caption="脱C炉" msprop:Generator_ColumnVarNameInTable="columnSM_DEV" msprop:Generator_ColumnPropNameInRow="SM_DEV" msprop:Generator_ColumnPropNameInTable="SM_DEVColumn" msprop:Generator_UserColumnName="SM_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_LOAD_TIME" msdata:Caption="脱C装入" msprop:Generator_ColumnVarNameInTable="columnSM_LOAD_TIME" msprop:Generator_ColumnPropNameInRow="SM_LOAD_TIME" msprop:Generator_ColumnPropNameInTable="SM_LOAD_TIMEColumn" msprop:Generator_UserColumnName="SM_LOAD_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SM_PROC_TIME" msdata:Caption="脱C处理时间" msprop:Generator_ColumnVarNameInTable="columnSM_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SM_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SM_PROC_TIMEColumn" msprop:Generator_UserColumnName="SM_PROC_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_TAP_TIME" msdata:Caption="脱P出钢" msprop:Generator_ColumnVarNameInTable="columnSM_TAP_TIME" msprop:Generator_ColumnPropNameInRow="SM_TAP_TIME" msprop:Generator_ColumnPropNameInTable="SM_TAP_TIMEColumn" msprop:Generator_UserColumnName="SM_TAP_TIME" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SM_REST_TIME" msdata:Caption="脱C炉休辅时间" msprop:Generator_ColumnVarNameInTable="columnSM_REST_TIME" msprop:Generator_ColumnPropNameInRow="SM_REST_TIME" msprop:Generator_ColumnPropNameInTable="SM_REST_TIMEColumn" msprop:Generator_UserColumnName="SM_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SM_FLAG" msdata:Caption="炼钢开始标记" msprop:Generator_ColumnVarNameInTable="columnSM_FLAG" msprop:Generator_ColumnPropNameInRow="SM_FLAG" msprop:Generator_ColumnPropNameInTable="SM_FLAGColumn" msprop:Generator_UserColumnName="SM_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR1_DEV" msdata:Caption="精炼1设备" msprop:Generator_ColumnVarNameInTable="columnSR1_DEV" msprop:Generator_ColumnPropNameInRow="SR1_DEV" msprop:Generator_ColumnPropNameInTable="SR1_DEVColumn" msprop:Generator_UserColumnName="SR1_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR1_PROC_TIME" msdata:Caption="精炼1处理时间" msprop:Generator_ColumnVarNameInTable="columnSR1_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR1_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR1_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR1_PROC_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR1_REST_TIME" msdata:Caption="SR1休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR1_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR1_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR1_REST_TIMEColumn" msprop:Generator_UserColumnName="SR1_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR1_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR1_FLAG" msprop:Generator_ColumnPropNameInRow="SR1_FLAG" msprop:Generator_ColumnPropNameInTable="SR1_FLAGColumn" msprop:Generator_UserColumnName="SR1_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR2_DEV" msdata:Caption="精炼2设备" msprop:Generator_ColumnVarNameInTable="columnSR2_DEV" msprop:Generator_ColumnPropNameInRow="SR2_DEV" msprop:Generator_ColumnPropNameInTable="SR2_DEVColumn" msprop:Generator_UserColumnName="SR2_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR2_PROC_TIME" msdata:Caption="精炼2处理时间" msprop:Generator_ColumnVarNameInTable="columnSR2_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR2_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR2_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR2_PROC_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR2_REST_TIME" msdata:Caption="SR2休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR2_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR2_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR2_REST_TIMEColumn" msprop:Generator_UserColumnName="SR2_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR2_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR2_FLAG" msprop:Generator_ColumnPropNameInRow="SR2_FLAG" msprop:Generator_ColumnPropNameInTable="SR2_FLAGColumn" msprop:Generator_UserColumnName="SR2_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR3_DEV" msdata:Caption="精炼3设备" msprop:Generator_ColumnVarNameInTable="columnSR3_DEV" msprop:Generator_ColumnPropNameInRow="SR3_DEV" msprop:Generator_ColumnPropNameInTable="SR3_DEVColumn" msprop:Generator_UserColumnName="SR3_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR3_PROC_TIME" msdata:Caption="SR3处理时间" msprop:Generator_ColumnVarNameInTable="columnSR3_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR3_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR3_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR3_PROC_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR3_REST_TIME" msdata:Caption="SR3休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR3_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR3_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR3_REST_TIMEColumn" msprop:Generator_UserColumnName="SR3_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR3_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR3_FLAG" msprop:Generator_ColumnPropNameInRow="SR3_FLAG" msprop:Generator_ColumnPropNameInTable="SR3_FLAGColumn" msprop:Generator_UserColumnName="SR3_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="SR4_DEV" msdata:Caption="精炼4设备" msprop:Generator_ColumnVarNameInTable="columnSR4_DEV" msprop:Generator_ColumnPropNameInRow="SR4_DEV" msprop:Generator_ColumnPropNameInTable="SR4_DEVColumn" msprop:Generator_UserColumnName="SR4_DEV" type="xs:string" minOccurs="0" />
+              <xs:element name="SR4_PROC_TIME" msdata:Caption="精炼4处理时间" msprop:Generator_ColumnVarNameInTable="columnSR4_PROC_TIME" msprop:Generator_ColumnPropNameInRow="SR4_PROC_TIME" msprop:Generator_ColumnPropNameInTable="SR4_PROC_TIMEColumn" msprop:Generator_UserColumnName="SR4_PROC_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR4_REST_TIME" msdata:Caption="SR4休辅时间" msprop:Generator_ColumnVarNameInTable="columnSR4_REST_TIME" msprop:Generator_ColumnPropNameInRow="SR4_REST_TIME" msprop:Generator_ColumnPropNameInTable="SR4_REST_TIMEColumn" msprop:Generator_UserColumnName="SR4_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="SR4_FLAG" msprop:Generator_ColumnVarNameInTable="columnSR4_FLAG" msprop:Generator_ColumnPropNameInRow="SR4_FLAG" msprop:Generator_ColumnPropNameInTable="SR4_FLAGColumn" msprop:Generator_UserColumnName="SR4_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="CC_PROC_TIME" msdata:Caption="连铸浇铸时间" msprop:Generator_ColumnVarNameInTable="columnCC_PROC_TIME" msprop:Generator_ColumnPropNameInRow="CC_PROC_TIME" msprop:Generator_ColumnPropNameInTable="CC_PROC_TIMEColumn" msprop:Generator_UserColumnName="CC_PROC_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="CC_REST_TIME" msdata:Caption="CC休辅时间" msprop:Generator_ColumnVarNameInTable="columnCC_REST_TIME" msprop:Generator_ColumnPropNameInRow="CC_REST_TIME" msprop:Generator_ColumnPropNameInTable="CC_REST_TIMEColumn" msprop:Generator_UserColumnName="CC_REST_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="CC_FLAG" msdata:Caption="连铸开始标记" msprop:Generator_ColumnVarNameInTable="columnCC_FLAG" msprop:Generator_ColumnPropNameInRow="CC_FLAG" msprop:Generator_ColumnPropNameInTable="CC_FLAGColumn" msprop:Generator_UserColumnName="CC_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="PONO_STATUS" msdata:Caption="命令状态" msprop:Generator_ColumnVarNameInTable="columnPONO_STATUS" msprop:Generator_ColumnPropNameInRow="PONO_STATUS" msprop:Generator_ColumnPropNameInTable="PONO_STATUSColumn" msprop:Generator_UserColumnName="PONO_STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="CURR_WP_NO" msdata:Caption="当前工序号" msprop:Generator_ColumnVarNameInTable="columnCURR_WP_NO" msprop:Generator_ColumnPropNameInRow="CURR_WP_NO" msprop:Generator_ColumnPropNameInTable="CURR_WP_NOColumn" msprop:Generator_UserColumnName="CURR_WP_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TD_CHG" msprop:Generator_TableClassName="TD_CHGDataTable" msprop:Generator_TableVarName="tableTD_CHG" msprop:Generator_RowChangedName="TD_CHGRowChanged" msprop:Generator_TablePropName="TD_CHG" msprop:Generator_RowDeletingName="TD_CHGRowDeleting" msprop:Generator_RowChangingName="TD_CHGRowChanging" msprop:Generator_RowEvHandlerName="TD_CHGRowChangeEventHandler" msprop:Generator_RowDeletedName="TD_CHGRowDeleted" msprop:Generator_RowClassName="TD_CHGRow" msprop:Generator_UserTableName="TD_CHG" msprop:Generator_RowEvArgName="TD_CHGRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TD_CHG_FLAG" msdata:Caption="代码" msprop:Generator_ColumnVarNameInTable="columnTD_CHG_FLAG" msprop:Generator_ColumnPropNameInRow="TD_CHG_FLAG" msprop:Generator_ColumnPropNameInTable="TD_CHG_FLAGColumn" msprop:Generator_UserColumnName="TD_CHG_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="TD_CHG_DESC" msdata:Caption="说明" msprop:Generator_ColumnVarNameInTable="columnTD_CHG_DESC" msprop:Generator_ColumnPropNameInRow="TD_CHG_DESC" msprop:Generator_ColumnPropNameInTable="TD_CHG_DESCColumn" msprop:Generator_UserColumnName="TD_CHG_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
